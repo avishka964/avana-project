@@ -1,0 +1,14 @@
+#title {
+  background-color: #7c9473;
+}
+
+h1 {
+  font-family: "Playfair Display", serif;
+  font-size: 3rem;
+  font-weight: 100px;
+  line-height: 1.5;
+}
+
+.container-fluid {
+  padding: 1% 15%;
+}
