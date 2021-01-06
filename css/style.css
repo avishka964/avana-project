@@ -1,14 +1,99 @@
+body {
+  font-family: "Lato", sans-serif;
+}
+
 #title {
   background-color: #7c9473;
 }
 
 h1 {
   font-family: "Playfair Display", serif;
-  font-size: 3rem;
+  font-size: 4rem;
   font-weight: 100px;
+  line-height: 1.2;
+}
+
+h2 {
+  font-family: "Lato", sans-serif;
+  font-size: 1.5rem;
   line-height: 1.5;
+}
+
+h3 {
+  font-weight: 2rem;
+}
+
+p {
+  color: gray;
 }
 
 .container-fluid {
   padding: 1% 15%;
+}
+
+.navbar {
+  padding-bottom: 5rem;
+}
+
+.navbar-brand {
+  font-family: "Playfair Display", serif;
+  font-size: 2rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.download-btn {
+  margin: 5% 4% 5% 0;
+}
+
+.center {
+  align-items: center;
+  justify-content: center;
+}
+
+.title-img {
+  width: 70%;
+}
+
+#features {
+  padding: 7% 15%;
+}
+
+.feature-content {
+  text-align: center;
+  padding: 5%;
+}
+
+.icon {
+  color: #7c9473;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #afcca4;
+}
+
+#testimonials {
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #afcca4;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 50%;
+  margin: 20px;
+}
+
+#press {
+  background-color: #afcca4;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 8%;
+  margin: 20px 20px 50px;
 }
