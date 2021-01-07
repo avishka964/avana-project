@@ -18,6 +18,34 @@ p {
   color: gray;
 }
 
+.container-fluid {
+  padding: 7% 15%;
+}
+
+.download-btn {
+  margin: 5% 3% 5% 0;
+}
+
+/* title-section */
+
+/* nav-bar */
+
+.navbar {
+  padding-bottom: 5rem;
+}
+
+.navbar-brand {
+  font-family: "Playfair Display", serif;
+  font-size: 2rem;
+}
+
+.nav-item {
+  font-family: "Lato", sans-serif;
+  padding: 0 18px;
+}
+
+/* title */
+
 #title {
   background-color: #7c9473;
   text-align: left;
@@ -34,38 +62,13 @@ p {
   line-height: 1.2;
 }
 
-.container-fluid {
-  padding: 7% 15%;
-}
-
-.navbar {
-  padding-bottom: 5rem;
-}
-
-.navbar-brand {
-  font-family: "Playfair Display", serif;
-  font-size: 2rem;
-}
-
-.nav-item {
-  font-family: "Lato", sans-serif;
-  padding: 0 18px;
-}
-
-.download-btn {
-  margin: 5% 3% 5% 0;
-}
-
-.center {
-  align-items: center;
-  justify-content: center;
-}
-
 .title-img {
   width: 30%;
   position: absolute;
   left: 57%;
 }
+
+/* features */
 
 #features {
   background-color: white;
@@ -87,6 +90,8 @@ p {
   color: #afcca4;
 }
 
+/* .testimonial */
+
 #testimonials {
   background-color: #afcca4;
 }
@@ -101,6 +106,8 @@ p {
   margin: 20px;
 }
 
+/* press */
+
 #press {
   background-color: #afcca4;
 
@@ -111,6 +118,8 @@ p {
   width: 8%;
   margin: 20px 20px 50px;
 }
+
+/* pricing */
 
 #pricing {
   padding: 100px;
@@ -124,6 +133,8 @@ p {
   padding: 3% 2%;
 }
 
+/* call-to-action */
+
 #cta {
   background-color: #afcca4;
 }
@@ -132,6 +143,8 @@ p {
   font-family: "Playfair Display", serif;
   font-size: 2.5rem;
 }
+
+/* footer */
 
 .social-icon {
   margin: 20px;
@@ -142,7 +155,12 @@ p {
     text-align: center;
   }
 
+  .lg-heading {
+    font-size: 3rem;
+  }
+
   .title-img {
     position: static;
+    width: 50%;
   }
 }
