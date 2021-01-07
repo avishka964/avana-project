@@ -1,34 +1,41 @@
 body {
   font-family: "Lato", sans-serif;
+  text-align: center;
 }
 
-#title {
-  background-color: #7c9473;
-}
-
-h1 {
-  font-family: "Playfair Display", serif;
-  font-size: 4rem;
-  font-weight: 100px;
-  line-height: 1.2;
+h2,
+h3 {
+  font-family: "Lato", sans-serif;
+  font-weight: 600;
 }
 
 h2 {
-  font-family: "Lato", sans-serif;
   font-size: 1.5rem;
   line-height: 1.5;
-}
-
-h3 {
-  font-weight: 2rem;
 }
 
 p {
   color: gray;
 }
 
+#title {
+  background-color: #7c9473;
+  text-align: left;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+}
+
+.lg-heading {
+  font-family: "Playfair Display", serif;
+  font-size: 4rem;
+  font-weight: 100px;
+  line-height: 1.2;
+}
+
 .container-fluid {
-  padding: 1% 15%;
+  padding: 7% 15%;
 }
 
 .navbar {
@@ -41,11 +48,12 @@ p {
 }
 
 .nav-item {
+  font-family: "Lato", sans-serif;
   padding: 0 18px;
 }
 
 .download-btn {
-  margin: 5% 4% 5% 0;
+  margin: 5% 3% 5% 0;
 }
 
 .center {
@@ -54,16 +62,20 @@ p {
 }
 
 .title-img {
-  width: 70%;
+  width: 30%;
+  position: absolute;
+  left: 57%;
 }
 
 #features {
-  padding: 7% 15%;
+  background-color: white;
+  position: relative;
 }
 
-.feature-content {
+.feature-content h3 {
   text-align: center;
   padding: 5%;
+  font-weight: normal;
 }
 
 .icon {
@@ -76,8 +88,11 @@ p {
 }
 
 #testimonials {
-  text-align: center;
   background-color: #afcca4;
+}
+
+.testimonial-text {
+  font-size: 2rem;
 }
 
 .testimonial-image {
@@ -86,13 +101,9 @@ p {
   margin: 20px;
 }
 
-.carousel-item {
-  padding: 7% 15%;
-}
-
 #press {
   background-color: #afcca4;
-  text-align: center;
+
   padding-bottom: 3%;
 }
 
@@ -103,9 +114,35 @@ p {
 
 #pricing {
   padding: 100px;
-  text-align: center;
+}
+
+.price-text {
+  font-size: 1.5rem;
 }
 
 .pricing-coloumn {
   padding: 3% 2%;
+}
+
+#cta {
+  background-color: #afcca4;
+}
+
+.cta-heading {
+  font-family: "Playfair Display", serif;
+  font-size: 2.5rem;
+}
+
+.social-icon {
+  margin: 20px;
+}
+
+@media (max-width: 991px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-img {
+    position: static;
+  }
 }
